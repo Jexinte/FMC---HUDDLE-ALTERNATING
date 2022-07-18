@@ -92,7 +92,7 @@ gap:1em;
 .left h1 {
     position: relative;
     top:2em;
-    margin-bottom: 1..3em;
+    margin-bottom: 1.3em;
 }
 
 .left p {

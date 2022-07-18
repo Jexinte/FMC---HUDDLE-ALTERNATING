@@ -16,7 +16,7 @@
 
                 <h1 class="main-title">Build The Community Your Fans Will Love</h1>
         
-                <p class="main-description">Huddle re-imagines the way we build communities. You have a voice,but so does your audience.Create connections with your users as you engage in genuine discussion. </p>
+                <p class="main-description">Huddle re-imagines the way we build communities. You have a voice, but so does your audience.Create connections with your users as you engage in genuine discussion. </p>
         
                 <a href="#" class="started">Get Started For Free</a>
             </div>
@@ -31,7 +31,11 @@
 
 <style scoped>
 
+/* DESKTOP */
+
 @media screen and (min-width:993px) {
+
+
          .welcome {
         padding:45px 11px 0;
     background-image: url('../assets/images/bg-hero-desktop.svg');
@@ -85,6 +89,17 @@ gap:1em;
     text-align: left;
 }
 
+.left h1 {
+    position: relative;
+    top:2em;
+    margin-bottom: 1..3em;
+}
+
+.left p {
+    font-size: 17px;
+    width: 98%;
+}
+
 .welcome-description h1 {
     font-family: var(--poppins);
     font-weight: var(--600);
@@ -99,6 +114,7 @@ gap:1em;
 .main-description {
     font-family: var(--openSans);
     font-size: 17px;
+    width: 98%;
 }
 
 .started:visited {
@@ -112,6 +128,9 @@ gap:1em;
     border-radius: 28px;
     padding-top: 14px;
     padding-bottom: 14px;
+    width: 40%;
+    text-align: center;
+    font-size: 13px;
 }
 
 }
@@ -190,7 +209,11 @@ padding-bottom: 47px;
     padding-bottom: 14px;
 }
 
-
+.left{
+    display: flex;
+    flex-direction: column;
+    gap:2em;
+}
 
     }
 </style>
